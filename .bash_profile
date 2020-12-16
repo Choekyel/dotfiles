@@ -1,3 +1,6 @@
+# gnubin path for using commands with the prefix "g"
+PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
+
 # Load dotfiles:
 for file in ~/.{bash_prompt,exports,aliases}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
